@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfort Haven Furnis - Home Decor</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+            <a href="#shop" class="btn">Shop Now</a>
+            <a href="#" data-page="signup">Sign Up</a>
+            <a href="#" data-page="login">Login</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Comfort Haven Furnis</h1>
+            <h2>A Beautiful Home with Beautiful Decor</h2>
+            <p>With our thoughtfully chosen selection of home décor pieces, explore a world of elegance and flair. Enhance your area with classic styles that evoke coziness and refinement.</p>
+            <a href="#shop" class="btn-primary">Explore Collection</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://image.freepik.com/free-photo/home-decoration-interior_169016-1452.jpg" alt="Home Decor">
+        </div>
+    </section>
+
+<!-- Video Section -->
+<section class="video-section">
+    <h2>Explore the Beauty of Interior Design</h2>
+    <p>Discover how Comfort Haven Furnis elegantly and functionally improves your house.</p>
+    <div class="video-container">
+        <iframe
+            src="https://www.youtube.com/embed/S-A0qLTxf-U?autoplay=1&mute=1"
+            frameborder="0"
+            allow="autoplay"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+<!-- Product Section -->
+<section class="product-section">
+    <h2>Our Products</h2>
+    <div class="product-container">
+        <div class="product">
+            <img src="sofa 2.webp" alt="Product 1">
+            <h3>Elegant Sofa</h3>
+            <p>With our high-end couch line, comfort and style come together.</p>
+            <button>Shop now</button>
+        </div>
+        <div class="product">
+            <img src="modren lamp.jpg" alt="Product 2">
+            <h3>Modern Lamp</h3>
+            <p>Brighten your area with our sleek, contemporary lighting.</p>
+            <button>Shop now</button>
+        </div>
+        <div class="product">
+            <img src="wadrobe.webp" alt="Product 3">
+            <h3>Decorative wardrobes</h3>
+            <p>High-end wardrobes designed for smooth organization, longevity, and elegance.</p>
+            <button>Shop now</button>
+        </div>
+
+        <div class="product">
+            <img src="bed 2.webp" alt="Product 4">
+            <h3>Decorative Bed</h3>
+            <p>Experience the Height of Comfort</p>
+            <button>Shop now</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="reviews-section">
+        <h2>Our Featured Reviews</h2>
+        
+        <div class="reviews-container">
+            <!-- Review 1 -->
+            <div class="review">
+                <div class="review-icon">
+                    <img src="male 3.webp" alt="Ethan">
+                </div>
+                <div class="review-details">
+                    <h3>Ethan</h3>
+                    <p>"I adore the design and the quality! Excellent customer service and prompt delivery. Strongly suggested for fashionable and long-lasting furniture."</p>
+                </div>
+            </div>
+    
+            <!-- Review 2 -->
+            <div class="review">
+                <div class="review-icon">
+                    <img src="pictuer 1.jpg" alt="Sophia">
+                </div>
+                <div class="review-details">
+                    <h3>Sophia</h3>
+                    <p>"Excellent prices, strong materials, and exquisite craftsmanship. Now my living room looks fantastic! I'll most certainly return to shop here."</p>
+                </div>
+            </div>
+    
+            <!-- Review 3 -->
+            <div class="review">
+                <div class="review-icon">
+                    <img src="pictuer 2.jpg" alt="Olivia">
+                </div>
+                <div class="review-details">
+                    <h3>Olivia</h3>
+                    <p>"Wonderful experience! Simple ordering, prompt delivery, and high-quality furniture that went above and beyond. Ideal complement to my interior design."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="contact-section">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+    
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+    
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    
+        <!-- Contact Image -->
+        <div class="contact-image">
+            <img src="card.png"alt="caed">
+        </div>
+    </section>
+
+
+<!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+
+      
+    <!-- Signup Page -->
+   <div id="signup" class="page">
+    <div class="form-container">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-name" placeholder="Enter your name" required>
+        <input type="email" id="signup-email" placeholder="Enter your email" required>
+        <input type="password" id="signup-password" placeholder="Enter your password" required>
+        <button id="signup-btn">Sign Up</button>
+        <p id="signup-error" style="color: red; display: none;">Please fill in all fields.</p>
+        <p>Already have an account? <a href="#" id="goto-login">Login</a></p>
+    </div>
+</div>
+
+<!-- Login Page -->
+<div id="login" class="page hidden">
+    <div class="form-container">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Enter your email" required>
+        <input type="password" id="login-password" placeholder="Enter your password" required>
+        <button id="login-btn">Login</button>
+        <p id="login-error" style="color: red; display: none;">Invalid email or password.</p>
+        <p>Don't have an account? <a href="#" id="goto-signup">Sign Up</a></p>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const signupPage = document.getElementById("signup");
+        const loginPage = document.getElementById("login");
+
+        const signupBtn = document.getElementById("signup-btn");
+        const loginBtn = document.getElementById("login-btn");
+
+        const signupError = document.getElementById("signup-error");
+        const loginError = document.getElementById("login-error");
+
+        const gotoLogin = document.getElementById("goto-login");
+        const gotoSignup = document.getElementById("goto-signup");
+
+        let users = {}; // Simulated user database (Replace with backend storage)
+
+        // Show login page when "Login" link is clicked
+        gotoLogin.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            signupPage.classList.add("hidden");
+            loginPage.classList.remove("hidden");
+        });
+
+        // Show signup page when "Sign Up" link is clicked
+        gotoSignup.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            loginPage.classList.add("hidden");
+            signupPage.classList.remove("hidden");
+        });
+
+        // Signup button functionality
+        signupBtn.addEventListener("click", function () {
+            const name = document.getElementById("signup-name").value.trim();
+            const email = document.getElementById("signup-email").value.trim();
+            const password = document.getElementById("signup-password").value.trim();
+
+            if (!name || !email || !password) {
+                signupError.style.display = "block";
+                return;
+            }
+
+            signupError.style.display = "none";
+            users[email] = { name, password }; // Save user to simulated database
+            alert("Signup successful! You can now login.");
+            signupPage.classList.add("hidden");
+            loginPage.classList.remove("hidden");
+        });
+
+        // Login button functionality
+        loginBtn.addEventListener("click", function () {
+            const email = document.getElementById("login-email").value.trim();
+            const password = document.getElementById("login-password").value.trim();
+
+            if (users[email] && users[email].password === password) {
+                loginError.style.display = "none";
+                alert("Login successful!");
+            } else {
+                loginError.style.display = "block";
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>
+
+
